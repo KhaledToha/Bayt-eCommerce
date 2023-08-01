@@ -2,10 +2,10 @@
 import { Grid, Box, CardMedia, CardContent, Typography, Chip } from '@mui/material'
 
 const ProductCard = ({ product }) => (
-    <Grid item md={4} sm={12}>
-          <Box borderRadius={3} boxShadow={0} width="95%" overflow="hidden" bgcolor="white">
+    <Grid item md={4} sm={12} width="100%">
+          <Box borderRadius={3} boxShadow={0} minWidth="95%" overflow="hidden" bgcolor="white">
             <CardMedia 
-                sx={{ width:'100%', height: '240px',  backgroundSize: 'contain'}}
+                sx={{ minWidth:'100%', height: '240px',  backgroundSize: 'contain'}}
                 image={product.image_url}
                 title={product.name}/>
 
