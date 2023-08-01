@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/KhaledToha/Bayt-eCommerce/issues"
   },
-  "homepage": "https://github.com/KhaledToha/Bayt-eCommerce#readme"
+  "homepage": "https://github.com/KhaledToha/Bayt-eCommerce#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
 }

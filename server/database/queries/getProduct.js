@@ -25,9 +25,4 @@ exports.getProductsQuery = (offset, category, sort) => {
   return connection.query(query, arr);
 };
 
-// SELECT
-//   (SELECT count(*) FROM products ${ category !== 'all' ? 'WHERE category = $2' : ''}) AS count, *
-//     FROM products
-//     ${ category !== 'all' ? 'WHERE category = $2' : '' }
-//     ORDER BY ${ sort || 'products.id DESC' }
-//     LIMIT 5 OFFSET $1
+
